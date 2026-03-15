@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDztQUowWEXtUyrwjZm9ADw_3ZtsqMiVL2g&s"
+        type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="form">
+        <form action="">
+            <h3>Library Management</h3>
+            <select id="Category">
+                <option value="">Select Category</option>
+                <option value="AddBook">Add a Book</option>
+                <option value="Borrow">Students Borrow</option>
+            </select><br>
+            <span id="ecate"></span><br>
+            <input type="text" id="name" placeholder="Enter Name">
+            <br>
+            <span id="ename"></span><br>
+
+            <input type="number" id="stock" placeholder="Enter Stock / Borrow Count">
+            <br>
+            <span id="estock"></span><br>
+            <button id="formsubmit">Submit</button>
+
+
+
+        </form>
+    </div>
+
+
+
+    <div class="table-form">
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Stock</th>
+                    <th>Borrow</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <td colspan="5">No records found</td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </div>
+
+    <div class="total-data">
+        <h3>Summary</h3>
+        <h4>Total Stock:<span id="totalstock">0</span></h4>
+        <h4>Borrow Books:<span id="borrowbooks">0</span></h4>
+        <!-- <h4>Remaining Stock:<span id="remainingstock">0</span></h4> -->
+    </div>
+    <div class="form-filter">
+        <!-- <select>
+            <option value="">ALL</option>
+            <option value="">Add a Book</option>
+            <option value="">Students Borrow</option>
+
+        </select> -->
+        <button id="printme">Print</button>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

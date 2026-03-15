@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Xanh Mono", monospace;
+}
+
+body {
+    background-color: #e0f2fe;
+    position: relative;
+
+}
+
+.form {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.form h3 {
+    padding: 10px;
+    /* color:white; */
+}
+
+.form select,
+input {
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+input,
+select {
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+}
+
+/* #Selectcategory:focus{
+    position: absolute;
+    top: 10px;
+
+} */
+
+#formsubmit {
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #3b82f6;
+    color: white;
+    transition: 0.5s;
+
+}
+
+#formsubmit:hover {
+    background: #1d4ed8;
+}
+
+
+.form-filter {
+    /* border: 2px solid yellow; */
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#printme {
+    /* border: 2px solid yellowgreen; */
+    border: none;
+    padding: 8px 25px;
+    border-radius: 2px;
+    margin-left: 10px;
+    background: #3b82f6;
+    color: white;
+    transition: 0.5s;
+}
+
+#printme:hover {
+    background: #1d4ed8;
+}
+
+.table-form {
+    /* border: 2px solid blue; */
+    width: 600px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+thead {
+
+    background: #2563eb;
+    color: white;
+}
+
+
+th,
+td {
+    border: 2px solid #dbeafe;
+
+    padding: 10px;
+
+}
+
+td {
+    border: 2px solid #dbeafe;
+    text-align: center;
+
+}
+
+tbody tr:nth-child(even) {
+    background: #e8f5e9;
+}
+
+.total-data {
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 25px;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.total-data h3 {
+    padding: 10px;
+
+}
+
+.total-data h4 {
+    padding: 10px;
+}
