@@ -53,11 +53,7 @@ select:focus {
     box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
 }
 
-/* #Selectcategory:focus{
-    position: absolute;
-    top: 10px;
 
-} */
 
 #formsubmit {
     border: none;

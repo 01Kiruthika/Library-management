@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 
     let librarytable = () => {
-        debugger;
+        // debugger;
 
         let library = JSON.parse(localStorage.getItem("library")) || []
         let newbooks = ""
